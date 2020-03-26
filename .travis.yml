@@ -3,13 +3,6 @@ git:
 
 jobs:
   include:
-  - name: iOS tests, stable channel
-    os: osx
-    osx_image: xcode11.2
-    language: objective-c
-    script: "./tool/travis_ios_script.sh"
-    env: FLUTTER_VERSION=stable
-
   - name: Android tests, stable channel
     os: linux
     dist: trusty
