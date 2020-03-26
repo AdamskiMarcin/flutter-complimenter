@@ -35,9 +35,12 @@ class _MyAppState extends State<MyApp> {
 
   @override
   Widget build(BuildContext context) {
-    final textWidget = Text(
-      text,
-      style: TextStyle(fontSize: 32),
+    final textWidget = Padding(
+      padding: EdgeInsets.all(24),
+      child: Text(
+        text,
+        style: TextStyle(fontSize: 32),
+      ),
     );
     final buttonWidget = RaisedButton(
       onPressed: () => setState(() {
@@ -53,9 +56,6 @@ class _MyAppState extends State<MyApp> {
             mainAxisSize: MainAxisSize.min,
             children: <Widget>[
               textWidget,
-              SizedBox(
-                height: 24,
-              ),
               buttonWidget,
             ],
           ),
