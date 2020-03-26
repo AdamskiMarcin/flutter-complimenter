@@ -1,0 +1,4 @@
+#Thu Mar 26 17:16:56 CET 2020
+base.0=/Users/marcin/development/projects/flutter_complimenter/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
